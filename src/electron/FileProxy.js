@@ -32,7 +32,7 @@
     const nodeRequire = global.require;
     const nodePath = nodeRequire('path');
     const fs = nodeRequire('fs');
-    const app = nodeRequire('electron').remote.app;
+    const app = nodeRequire('electron').app;
 
     const FileEntry = require('./FileEntry');
     const FileError = require('./FileError');
